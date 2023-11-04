@@ -16,7 +16,7 @@ jobs:
           with:
             targets: |
               ansible/playbook.yml
-              ansible/inventory.yml
+              ansible/inventory
 
         
       
