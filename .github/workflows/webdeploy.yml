@@ -14,9 +14,9 @@ jobs:
         - name: Ansible Linting Action
           uses: ansible-actions/ansible-lint-action@v1.0.2
           with:
-            targets: |
+            target: |
               ansible/playbook.yml
-              ansible/inventory.yml
+              ansible/inventory
 
         
       
