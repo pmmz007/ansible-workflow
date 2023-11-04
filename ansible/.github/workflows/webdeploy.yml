@@ -1,4 +1,4 @@
-name: webserver deploy
+name: webserver  CI/CD
 on:
   workflow_dispatch:
 
