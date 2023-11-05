@@ -5,7 +5,7 @@ on:
 jobs:
     lint:
         name: Lint Ansible Playbook
-        runs-on: redhat/7
+        runs-on: redhat-7
 
         steps:
         - name: Checkout
