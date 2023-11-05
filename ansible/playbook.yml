@@ -3,7 +3,7 @@
   hosts: all
   become: true
   tasks:
-    - name: install httpd package 
-      yum:
+    - name: install httpd package
+      ansible.builtin.yum:
         name: httpd
         state: present
