@@ -2,7 +2,7 @@
 - name: webserver playbook
   hosts: all
   become: true
-  tasks: 
+  tasks:
     - name: install httpd package 
       yum:
         name: httpd
